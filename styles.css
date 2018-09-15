@@ -1,0 +1,156 @@
+body {
+  background: black;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-top: 5px;
+}
+
+.the-points{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 105px;
+}
+
+.points-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  width: 200px;
+  height: 110px;
+  font-size: 15px;
+  align-self: flex-end;
+  justify-content: space-around;
+  /* text-transform: uppercase; */
+  border: 1px solid orange;
+}
+
+
+.score {
+  display: flex;
+  flex-direction: column;
+}
+
+.o-score {
+  margin-top: 5px;
+}
+
+.clear-score {
+  background: orange;
+  width: 105px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-score:hover {
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  background: orange;
+  border: none;
+  color: red;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.board-container {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.box-one {
+  border-bottom: 6px solid orange;
+  border-right: 6px solid orange;
+}
+
+.box-two {
+  border-bottom: 6px solid orange;
+  border-right: 6px solid orange;
+}
+
+.box-three {
+  border-bottom: 6px solid orange;
+}
+
+.box-four {
+  border-right: 6px solid orange;
+  border-bottom: 6px solid orange;
+}
+
+.box-five {
+  border-right: 6px solid orange;
+  border-bottom: 6px solid orange;
+}
+
+.box-six {
+  border-bottom: 6px solid orange;
+}
+
+.box-seven {
+  border-right: 6px solid orange;
+}
+
+.box-eight {
+  border-right: 6px solid orange;
+}
+
+.text-div {
+  font-size: 75px;
+  transition: color 1s;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.new-color {
+  color: red;
+}
+
+.blue {
+  color: lightblue;
+}
